@@ -1,6 +1,6 @@
 
 package basit_ornekler.hafta_1_2;
-
+import java.util.Scanner;
 
 public class Hafta_1_2 {
 
@@ -12,6 +12,18 @@ public class Hafta_1_2 {
                 count++;
             }
         }
-        System.out.println("Büyük harf Sayısı: " + count);
+        System.out.println("Buyuk harf Sayisi: " + count);
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Adinizi girin: ");
+        String name = input.nextLine();
+        
+        System.out.print("Yasinizi girin: ");
+        int age = input.nextInt();
+        
+        System.out.println("Merhaba " + name + ", yasiniz: " + age );
+        
+        input.close();
     }
 }    
