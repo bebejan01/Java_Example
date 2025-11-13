@@ -14,6 +14,8 @@ public class Yarisma {
     }
 
     
+
+    
     public void bilgileriGoster() {
         System.out.println("Yarışmacı Adı: " + ad);
         System.out.println("Toplam Puan: " + puan);
