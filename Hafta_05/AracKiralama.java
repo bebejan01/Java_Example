@@ -1,5 +1,3 @@
-
-
 public class AracKiralama {
     public static void main(String[] args) {
         // Araç nesneleri oluşturuluyor (constructor kullanımı)
